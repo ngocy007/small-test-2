@@ -413,7 +413,7 @@ for (let i = 0; i < dates.length; ) {
 $("#starts").click(function (e) {
   const nb = $("#nb").val(); // get val
   const max = $("input").val();
-  if (Number(max) > 105) {
+  if (Number(max) > 71) {
     alert("Số không được lớn hơn 105");
     location.reload();
   }
