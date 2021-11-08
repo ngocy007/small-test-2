@@ -1,0 +1,78 @@
+.content {
+  display: flex;
+  padding: 50px auto;
+  margin: 100px auto;
+  justify-content: space-around;
+}
+.result {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+}
+.result span {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.start {
+  display: flex;
+  align-items: center;
+}
+.handle {
+  width: 200px;
+}
+.form {
+  width: 700px;
+  visibility: hidden;
+  transition: all 0.2s ease;
+}
+
+.question {
+  width: 100%;
+  font-weight: 400;
+  border: 1px solid;
+  user-select: none;
+  font-size: 24px;
+  padding: 15px 0;
+}
+
+.answers {
+  border: 1px solid;
+}
+.❔ {
+  font-size: 24px;
+  width: 100%;
+  user-select: none;
+  margin-bottom: 10px;
+}
+.❔:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.end {
+  width: 100%;
+  padding: 10px 4px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+}
+
+.idquest {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  margin: 5px;
+  border: 1px solid;
+  border-left: none;
+  text-align: center;
+  border-radius: 50%;
+}
+.idquest:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.reset {
+  display: none;
+}
